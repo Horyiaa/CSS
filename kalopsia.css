@@ -553,7 +553,7 @@ textarea {background: var(--neutralAcct);}
 .main-content-row .container {
     display: grid;
     grid-template-rows: max-content auto;
-    grid-template-columns: min-content 1fr;
+    grid-template-columns: 145px 1fr;
 }
 
 /* Barre de séparation */
