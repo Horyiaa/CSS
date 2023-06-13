@@ -553,8 +553,7 @@ textarea {background: var(--neutralAcct);}
 .main-content-row .container {
     display: grid;
     grid-template-rows: max-content auto;
-    grid-template-columns: min-content 1fr;
-}
+    grid-template-columns: 235px max-content;}
 
 /* Barre de séparation */
 .separator {
@@ -1692,16 +1691,18 @@ border: 5px solid var(--FAM-buttonsClr);
     padding: 16px 45px 0 35px;
 }
 
-.footer_post {
-    position: relative;
+.container .footer_post {
+    position: static;
     min-width: 430px;
     max-width: 430px;
     display: inline-flex;
     background: var(--FAM-buttonsClr);
     border-radius: 0 15px 15px 0;
-    bottom: 58px;
+    /* bottom: 58px; */
+    /* left: 84px; */
     align-items: center;
     justify-content: flex-end;
+    margin-left: -35px;
     padding: 0 15px;
 }
 
