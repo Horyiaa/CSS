@@ -1784,7 +1784,7 @@ div.post_row:last-of-type {
     border-radius: 15px;
     position: relative;
     bottom: 74px;
-    left: 0;
+    left: 25px;
 }
 
 .avatar-pseudo:after {
