@@ -1418,6 +1418,7 @@ padding: 0.5ch 1ch;
   border: 1px solid var(--FAM-accentClr);
 border-radius: 2px;
 text-align: center;font-weight: 800;
+background: rgb(255 255 255 / 26%);
     font-family: 'Metamorphous';
     backdrop-filter: blur(6px);text-shadow: 2px -1px 3px var(--textColor);
 }
@@ -1442,11 +1443,13 @@ border: 5px solid var(--FAM-buttonsClr);
     overflow: auto;
     border-radius: 8px;
     backdrop-filter: blur(20px);
+    background: rgb(255 255 255 / 26%);
     width: 350px;
 }
 
 .online-present{
 border: 5px solid var(--FAM-buttonsClr);
+background: rgb(255 255 255 / 26%);
     font: 14px open sans;
     margin: 8px;
     padding: 5px 15px;
