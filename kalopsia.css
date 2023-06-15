@@ -2426,33 +2426,48 @@ div#field_id16 field {max-height: 70px;overflow: auto;display: block;text-align:
 
 .tooltipster-arrow {display: none}
 .userlist {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
     grid-gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .userlist_profil {
-    display: grid;
-    grid-template-columns: 95px auto;
-    grid-gap: 10px;
-    padding: 10px;
-    background: var(--neutral);
-    border-radius: 5px;
+    position: relative;
+    margin-bottom: 200px;
 }
 
-.userlist_avatar {}
-
-.userlist_avatar img {
-    width: 75px;
-    height: 120px;
+.userlist_avatar {
     object-fit: cover;
     object-position: center;
+    filter: drop-shadow(0 0 20px var(--FAM-titleClr));
+    display: block;
+    width: 200px;
+    height: 285px;
+    overflow: hidden;
+    border-radius: 180px 180px;
+    outline: 2px solid var(--FAM-titleClr);
+    outline-offset: 4px;
 }
 
-.userlist_details {}
+.userlist_avatar img {}
+
+.userlist_details {
+    background: var(--FAM-accentClr);
+    padding: 15px;
+    color: var(--FAM-newMsgAnimation);
+    border-radius: 11px;
+    position: absolute;
+    width: 290px;
+    left: -38px;
+    bottom: -98px;
+}
 
 .userlist_pseudo {
-    font-size: var(--medium-size);
+    font-size: 29px;
+    font-family: 'Metamorphous';
 }
 
 .userlist_infos {}
