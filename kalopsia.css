@@ -2456,7 +2456,16 @@ div#field_id16 field {max-height: 40px;overflow: auto;display: block;text-align:
     outline-offset: 4px;
 }
 
-.userlist_avatar img {}
+.userlist_avatar img {    object-fit: cover;
+    object-position: center;
+    filter: drop-shadow(0 0 20px var(--FAM-titleClr));
+    display: block;
+    width: 200px;
+    height: 285px;
+    overflow: hidden;
+    border-radius: 180px 180px;
+    outline: 2px solid var(--FAM-titleClr);
+    outline-offset: 4px;}
 
 .userlist_details {
     background: var(--FAM-accentClr);
