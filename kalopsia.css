@@ -2658,6 +2658,24 @@ form[name=form_login] .content {
 }
 
 /***************AUTRE CODES DU FORUM STYLE FICHES ETC******************/
+.main-content-row .container {
+    display: grid;
+    grid-template-rows: max-content auto;
+    grid-template-columns: 145px 1fr;
+}
+
+.avatar-pseudo {
+    width: 200px;
+    height: 55px;
+    background: var(--FAM-sleepModeBackground);
+    backdrop-filter: blur(9px);
+    box-shadow: 0 0 2px rgba(140, 140, 140, .3);
+    border-radius: 15px;
+    position: relative;
+    bottom: 74px;
+    left: 25px;
+}
+
 #prezKal{
     width: 890px;
   border-radius:7px;
@@ -3039,21 +3057,93 @@ width: 301px;
     color: var(--neutralAcct);
 }
 
-.main-content-row .container {
-    display: grid;
-    grid-template-rows: max-content auto;
-    grid-template-columns: 145px 1fr;
+.topicslist-img {
+  width: 150px;
+    border-radius: 7px;
 }
 
-.avatar-pseudo {
-    width: 200px;
-    height: 55px;
-    background: var(--FAM-sleepModeBackground);
-    backdrop-filter: blur(9px);
-    box-shadow: 0 0 2px rgba(140, 140, 140, .3);
-    border-radius: 15px;
-    position: relative;
-    bottom: 74px;
-    left: 25px;
+.scenaFiche{
+  border-radius: 7px;
+  margin: auto;
+  overflow:hidden;
 }
 
+.headScena{
+    background-color: var(--FAM-buttonsClr);
+  padding: 40px;
+  position:relative;
+}
+
+.headScena img{
+    float: right;
+border-radius: 13px;
+    padding: 7px;
+    height: 110px;
+      right: 0;
+    position: absolute;
+    top: 20px;
+    width: 280px;
+}
+
+.contentScena{
+  padding: 20px 50px 40px;
+background-color: var(--backgroundImg);
+}
+
+.contentScena resume{
+  margin: 25px;
+  height: 200px;
+  overflow: auto;
+  text-align: justify;
+  background-color: var(--FAM-newMsgAnimation);
+  border-radius: 5px;
+  display: block;
+  padding: 15px;
+}
+
+.contentScena p{
+  max-height:350px;
+  overflow:auto;
+}
+
+.liensScena{
+  border-radius:7px;
+  display:flex;
+  height:130px;
+}
+
+.liensScena div{
+background: var(--FAM-sleepModeBackground);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+justify-content: flex-start;
+  border-radius:7px;
+}
+
+.liensScena h2{margin-bottom:-10px;}
+
+.liensScena p{
+  max-height:120px;
+  overflow:auto;
+  margin-bottom: 35px;
+}
+
+.liensScena img{
+  border-radius: 7px;
+  margin-left: -10px;
+}
+
+.attenteScena{
+  margin-top:15px;
+}
+
+.attenteScena span{
+  display: inline-block;
+  margin-right: 2.5px;
+  margin-bottom: 5px;
+    background-color: var(--FAM-accentClr);
+  padding: 3px 7px;
+  border-radius: 7px;
+}
