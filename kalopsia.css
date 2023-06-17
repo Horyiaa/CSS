@@ -2225,6 +2225,7 @@ display: flex;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .profileFooter{
@@ -2322,7 +2323,7 @@ column-gap: 30px;
     flex-wrap: wrap;
     flex-direction: column;
 }
-div#field_id16 field {max-height: 70px;overflow: auto;display: block;text-align: center;padding: 5px 0;}
+div#field_id16 field {max-height: 40px;overflow: auto;display: block;text-align: center;padding: 5px 0;}
 .profileRp .profile_field label{
   background: var(--FAM-titleClr);    color: var(--textColorAccent);
   padding: 2px 15px;
