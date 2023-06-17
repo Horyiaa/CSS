@@ -3028,3 +3028,22 @@ width: 301px;
 .liensUtilesPa a:hover {
     color: var(--neutralAcct);
 }
+
+.main-content-row .container {
+    display: grid;
+    grid-template-rows: max-content auto;
+    grid-template-columns: 145px 1fr;
+}
+
+.avatar-pseudo {
+    width: 200px;
+    height: 55px;
+    background: var(--FAM-sleepModeBackground);
+    backdrop-filter: blur(9px);
+    box-shadow: 0 0 2px rgba(140, 140, 140, .3);
+    border-radius: 15px;
+    position: relative;
+    bottom: 74px;
+    left: 25px;
+}
+
