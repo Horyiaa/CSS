@@ -1613,7 +1613,7 @@ display: block;
 
 #liensforums2 a::before {
     color: #DD9F8C;
-    content: " ● ";
+    content: "  ";
 }
 
 /*Partie image new, no new etc.*/
